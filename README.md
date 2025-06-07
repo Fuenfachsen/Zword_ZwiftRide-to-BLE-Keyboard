@@ -17,31 +17,30 @@ Don't turn on your trainer or any training app. We want to prevent the controlle
 Only the very first time or if you want to connect the hardware to a new PC/Tablet/Phone:
   1) On your PC/Tablet/Phone go to bluetooth settings and connect to "Zword". Allow it to pair.
   (it may show two times as being connected... I have no idea why and I don't bother).
-
-  Unplug the ESP32.
+  2) Unplug the ESP32.
 
 For normal usage:
   1) Turn on the LEFT Zwift Ride controller, it should start flashing blue
   2) Power on the ESP32
   3) Wait until the LEFT Zwift Ride vibrates (connection successfully established)
      If the controller vibrate twice after the first one it means the keyboard is also connected
-  5) Turn on the RIGHT controller. It will flash blue until it lights up constantly blue
-  6) You're ready to go!
+  4) Turn on the RIGHT controller. It will flash blue until it lights up constantly blue
+  5) You're ready to go! (Start your favorite cycling app)
 
 # Button assignments:
 Left controller:
-  All side buttons:   Shift Down
-  power:              Play/Pause
-  Left/Right:         prev./next track
-  Up/Down:            Volume up/down
+  - All side buttons:   Shift Down
+  - power:              Play/Pause
+  - Left/Right:         prev./next track
+  - Up/Down:            Volume up/down
 
 Right controller:
-  All side buttons:   Shift Up
-  A:                  Hello Emote
-  Y:                  Hide/Show UI
-  B:                  Battery Low Emote
-  Z:                  Thumbs Up Emote
-  power:              Pause/Resume the ride
+  - All side buttons:   Shift Up
+  - A:                  Hello Emote
+  - Y:                  Hide/Show UI
+  - B:                  Battery Low Emote
+  - Z:                  Thumbs Up Emote
+  - power:              Pause/Resume the ride
 
 # Needed Libraries
 https://github.com/T-vK/ESP32-BLE-Keyboard
@@ -63,6 +62,8 @@ Special thanks to:
 - ajchellew with his zwiftplay project (https://github.com/ajchellew/zwiftplay) and the very good descriptions
 - Makinolo for the great work and blog articles on the zwift hardware (https://www.makinolo.com/blog/2024/07/26/zwift-ride-protocol/)
 - Jonasbark with his swiftcontrol app (https://github.com/jonasbark/swiftcontrol/tree/main)
+
+All are very good ressources and help to understand how it all works together.
 
 # Disclaimer
 Use at your own risk. I don't own any rights of the Names "Zwift" and "MyWoosh"
