@@ -1,4 +1,6 @@
 # Zword_ZwiftRide-to-BLE-Keyboard
+"Zword" is a combination of the words ZWift and keyBO(A)RD.
+
 A ESP32 based project to convert button presses on the Zwift Ride controller into BLE keyboard presses. It auto connects to the Zwift RIDE controller and advertises as BLE Keyboard. No other controllers are supported since they use encrypted messages and I din't want to dig in that deep. 
 
 
