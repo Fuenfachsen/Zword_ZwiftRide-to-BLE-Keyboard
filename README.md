@@ -1,3 +1,6 @@
+watch a short "trailer" here:
+https://youtu.be/GYDIrvK_Fz0?si=V6k12knHXhbVBpb5
+
 # Zword_ZwiftRide-to-BLE-Keyboard
 "Zword" is a combination of the words ZWift and keyBO(A)RD.
 
