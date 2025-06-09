@@ -1,5 +1,9 @@
 watch a short "trailer" here:
-https://youtu.be/GYDIrvK_Fz0?si=V6k12knHXhbVBpb5
+https://youtu.be/GYDIrvK_Fz0
+
+New to ESP32 and Microcontrollers? Never heard of Arduino?
+Here is a very short "How-To" guide:
+https://youtu.be/hkFjhK8yZEw
 
 # Zword_ZwiftRide-to-BLE-Keyboard
 "Zword" is a combination of the words ZWift and keyBO(A)RD.
@@ -7,7 +11,7 @@ https://youtu.be/GYDIrvK_Fz0?si=V6k12knHXhbVBpb5
 A ESP32 based project to convert button presses on the Zwift Ride controller into BLE keyboard presses. It auto connects to the Zwift RIDE controller and advertises as BLE Keyboard. No other controllers are supported since they use encrypted messages and I din't want to dig in that deep. 
 
 
-The setup as in the code is made to work with the "MyWoosh" app.
+The setup as in the code is made to work with the "MyWhoosh" app.
 As there are limited keyboard shortcuts available I decided to assign media buttons to the left controller.
 I ignored the "paddle" as I couldn't think of any use.
 
