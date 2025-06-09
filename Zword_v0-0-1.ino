@@ -2,7 +2,7 @@
 #include <BleKeyboard.h>
 
 //General Options
-bool enableHapticFeedback = false; //Vibration when Zwift Ride button is pressed. Initail "Connection Completed" is not affected
+bool enableHapticFeedback = false; //Vibration when Zwift Ride button is pressed. Initial "Connection Completed" is not affected
 
 
 // BLE Keyboard initialization
