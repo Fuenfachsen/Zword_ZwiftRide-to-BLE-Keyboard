@@ -76,9 +76,11 @@ Special thanks to:
 All are very good ressources and help to understand how it all works together.
 
 # Ideas for further improvements (most likely will not happen by me...)
+- use enum structure for the button presses as suggested here: https://www.makinolo.com/blog/2024/07/26/zwift-ride-protocol
+- Add Zwift Play incl. decryption of the protocol
 - Refactor code and find a better solution for the media key handling
 - Include a webservice on the device that lets the user configure the button mapping without changing the source
-- Incorporate the padles (if there are any useful things that can be done with it
+- Incorporate the padles (if there are any useful things that can be done with it)
 - Expand MyWoosh shortkeys if they ever decide to extend what they have
 
 # Disclaimer
